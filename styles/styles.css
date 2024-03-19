@@ -228,6 +228,16 @@ a {
     padding-left: 10px;
 }
 
+.choose_input:active {
+    border: none;
+    outline: none;
+}
+
+.choose_input:focus {
+    border: none;
+    outline: none;
+}
+
 .sum_flex {
     display: flex;
     justify-content: center;
@@ -241,6 +251,16 @@ a {
     font-size: 24px;
     padding-left: 15px;
     border-radius: 25px;
+}
+
+.sum:active {
+    border: none;
+    outline: none;
+}
+
+.sum:focus {
+    border: none;
+    outline: none;
 }
 
 .currency {
