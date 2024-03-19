@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.head_banner {
+    height: 900px;
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 110px;
+}
+
+.logo_img {
+    width: 230px;
+    height: 230px;
+}
+
+.logo_text {
+    font-size: 156px;
+    font-weight: 200;
+    letter-spacing: 35px;
+    padding-top: 20px;
+}
+
+.head_banner_text {
+    font-size: 48px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin-left: 15%;
+}
+
+.about {
+    height: 900px;
+    background-image: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_header {
+    font-size: 72px;
+    font-weight: 200;
+    letter-spacing: 20px;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 7%;
+}
+
+.about_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 80px;
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_grid_block {
+    display: block;
+    max-width: 400px;
+}
+
+.grid_block_header {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.grid_block_image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.login_header {
+    font-size: 78px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.login_form {
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_input_block {
+    display: flex;
+    background: transparent;
+    width: 500px;
+    height: 60px;
+    border: 1px solid #000000;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+
+.form_input_icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.vertical {
+    display: block;
+    height: 50px;
+    width: 1px;
+    background: #000000;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.form_input {
+    width: 420px;
+    border-radius: 50px;
+    margin-left: 15px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.form_input:focus {
+    outline: none;
+    border: none;
+}
+
+.passreset {
+    display: block;
+    font-size: 24px;
+    color: #8EB282;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.submit {
+    display: block;
+    font-size: 32px;
+    background: #8EB282;
+    width: 120px;
+    text-align: center;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.choose {
+    height: 905px;
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.choose_flex {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+.frame_header {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.frame {
+    display: block;
+    width: 450px;
+    height: 250px;
+    background: #8EB282;
+    border-radius: 70px;
+}
+
+.frame_flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.frame_flex_block {
+    background: #FFFFFF;
+    display: flex;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.frame_block_image {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.frame_block_text {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.choose_input {
+    display: block;
+    width: 400px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+#frame1 {
+    padding-top: 80px;
+}
+
+#frame2 {
+    padding-top: 450px;
+}
+
+.yourdata {
+    height: 905px;
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yd_flex {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.form {
+    display: block;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    box-shadow: 8px 8px 9px 0px rgba(0,0,0,0.3);
+    margin-top: 200px;
+}
+
+.form_block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+    padding-top: 40px;
+}
+
+.form_input_block {
+    display: flex;
+    background: transparent;
+    width: 280px;
+    height: 50px;
+    border: 1px solid #000000;
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+
+.form_input_icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.vertical {
+    display: block;
+    height: 40px;
+    width: 1px;
+    background: #000000;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.form_input {
+    width: 180px;
+    border-radius: 50px;
+    margin-left: 15px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.form_input:focus {
+    outline: none;
+    border: none;
+}
+
+.yd_agree {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.submit {
+    display: block;
+    width: 160px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    background: #8EB282;
+    color: #FFFFFF;
+}
+
+.yd_header {
+    font-size: 96px;
+    text-align: center;
+    max-width: 440px;
+    padding-top: 350px;
+}
+
+/*Adaptation*/
+
+@media screen and (max-width: 1390px) {
+    .logo_text {
+        font-size: 90px;
+        padding-top: 59px;
+    }
+    
+    head_banner_text {
+        font-size: 43px
+    }
+    
+    .about_header {
+        font-size: 65px;
+    }
+
+    .about_grid {
+        grid-template-columns: repeat(2, 370px);
+        width: 820px;
+    }    
+    
+    .grid_block_image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .choose_flex {
+        gap: 5%;
+    }
+    
+    .yd_flex {
+        gap: 5%;
+    }
+
+    .form {
+        margin-top: 180px;
+    }
+
+    .yd_header {    
+        padding-top: 310px;
+    }
+
+    .about_grid_block {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 1189px) {
+    .logo_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .logo_text {
+        font-size: 54px;
+        padding-top: 68px;
+    }
+
+    .head_banner_text {
+        font-size: 40px;
+        margin-left: 17%;
+    }
+
+    .about_header {
+        font-size: 45px;
+    }
+
+    .grid_block_image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .about_grid_block {
+        max-width: 330px;
+    }
+
+    .about_grid {
+        grid-template-columns: repeat(2, 330px);
+        width: 790px;
+    }
+
+    .about_header {
+        padding-top: 60px;
+    }
+
+    .choose_flex {
+        gap: 0px;
+    }
+
+    .yd_flex {
+        gap: 2%;
+    }
+}
+
+@media screen and (max-width: 1137px) {
+    .logo {
+        display: inline;
+    }
+
+    .logo_img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+
+    .logo_text {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .head_banner_text {
+        display: block;
+        width: 354px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .head_banner {
+        height: 733px;
+    }
+
+    .about {
+        height: 1179px;
+    }
+
+    .about_header {
+        font-size: 29px;
+    }
+
+    .about_grid {
+        grid-template-columns: repeat(1, 330px);
+        width: 330px;
+    }
+
+    .about_grid_block {
+        max-width: 330px;
+    }
+
+    .choose_flex {
+        display: inline;
+    }
+
+    #frame2 {
+        padding-top: 40px;
+    }
+    
+    .frame {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .yd_flex {
+        display: inline;
+    }
+
+    .form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .yd_header {
+        display: block;
+        font-size: 35px;
+        max-width: 283px;
+        padding-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .logo_text {
+        font-size: 25px;
+        padding-top: 68px;
+        letter-spacing: 26px;
+    }
+
+    .head_banner_text {
+        font-size: 30px;
+        width: 291px;
+    }
+
+    .frame {
+        width: 366px;
+        height: 248px;
+    }
+
+    .frame_flex {
+        gap: 12px;
+    }
+
+    .choose_input {
+        width: 324px;
+        height: 48px;
+        margin-left: 19px;
+    }
+
+    .form {
+        background: #FFFFFF;
+    }
+}
