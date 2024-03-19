@@ -183,7 +183,7 @@ a {
 .frame {
     display: block;
     width: 450px;
-    height: 250px;
+    height: 258px;
     background: #8EB282;
     border-radius: 70px;
 }
@@ -226,6 +226,27 @@ a {
     margin-top: 40px;
     border-radius: 25px;
     padding-left: 10px;
+}
+
+.sum_flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.sum {
+    width: 120px;
+    height: 35px;
+    font-size: 24px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+
+.currency {
+    font-size: 28px;
+    color: #FFFFFF;
+    padding-top: 4px;
 }
 
 #frame1 {
